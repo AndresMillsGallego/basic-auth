@@ -6,9 +6,9 @@ PR links can be found at the bottom of this document[^1]
 
 [GitHub Repo](https://github.com/AndresMillsGallego/basic-auth)
 
-[Heroku Deployed Link](https://andresmills-api-server.herokuapp.com/)
+[Heroku Deployed Link](https://andresmills-basic-auth.herokuapp.com/)
 
-![Class 06 UML]()
+![Class 06 UML](./uml-class-06.png)
 
 ## Installation
 
@@ -38,9 +38,9 @@ Project by: Andres Mills Gallego
 
 I used `sequelize`, `postgres`, `express`, `jest` to build and test this app.  It is a **REST** app and uses `GET`, `PUT`, `POST` and `DELETE` routes.  These are all used in separate Router files for each model.
 
-For authentication I used `base64` and `bcrypt`
+For authentication I used `base64`, `bcrypt` and tested with `supertest`
 
 ## Pull Requests
 
-[^1]: [Class 06 Pull Request]()
+[^1]: [Class 06 Pull Request](https://github.com/AndresMillsGallego/basic-auth/pull/1)
 
